@@ -1,0 +1,10 @@
+---
+layout: post
+title: "protobuf"
+date: 2014-05-23 15:05:20 +0800
+comments: true
+categories: protobuf
+---
+###参考	
+https://developers.google.com/protocol-buffers/docs/overview
+http://www.ibm.com/developerworks/cn/linux/l-cn-gpb/
