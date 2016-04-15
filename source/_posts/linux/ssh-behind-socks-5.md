@@ -1,6 +1,7 @@
 title: ssh behind socks 5
 date: 2015-06-30 17:29:01
 tags: linux
+category: linux
 ---
 ## nc
 ```

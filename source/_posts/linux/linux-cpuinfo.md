@@ -1,6 +1,8 @@
+---
 title: linux-cpuinfo
 date: 2015-10-29 17:11:49
 tags: [linux]
+category: linux
 ---
 ### cpu
 + processor 逻辑处理器的唯一标识符。
@@ -19,17 +21,17 @@ tags: [linux]
 echo "logical CPU number:"
 #逻辑CPU个数
 cat /proc/cpuinfo | grep "processor" | wc -l
- 
+
 echo "physical CPU number:"
 #物理CPU个数：
 cat /proc/cpuinfo | grep "physical id" | sort -u | wc -l
- 
+
 echo "core number in a physical CPU:"
 #每个物理CPU中Core的个数：
 cat /proc/cpuinfo | grep "cpu cores" | uniq | awk -F: '{print $2}'
 #查看core id的数量,即为所有物理CPU上的core的个数
 cat /proc/cpuinfo | grep "core id" | uniq |  wc -l
- 
+
 #是否为超线程？
 #如果有两个逻辑CPU具有相同的”core id”，那么超线程是打开的。或者siblings数目比cpu cores数目大。
 #每个物理CPU中逻辑CPU(可能是core, threads或both)的个数：
@@ -40,7 +42,7 @@ cat /proc/cpuinfo | grep "siblings"
 Are the processors 64-bit?   
 A 64-bit processor will have lm ("long mode") in the flags section of cpuinfo. A 32-bit processor will not.
 
-or 
+or
 
 `lscpu`
 

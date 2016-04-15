@@ -1,6 +1,8 @@
+---
 title: JStormCache源码
 date: 2015-11-25 14:46:49
 tags: [jstorm]
+category: jstorm
 ---
 ### Interface
 ```java
@@ -106,7 +108,7 @@ public String getNimbusCacheClass(Map conf) {
 
 ```
 配置:
-    ## Two type cache 
+    ## Two type cache
     ## "com.alibaba.jstorm.cache.TimeoutMemCache" is suitable for small cluster
     ## "com.alibaba.jstorm.cache.~~TimeoutMemCache~~RocksDBCache" can only run under linux/mac, it is suitable for huge cluster
     ## if it is null, it will detected by environment

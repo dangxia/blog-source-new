@@ -1,12 +1,13 @@
+---
 title: eclipse modify tab ui
 date: 2015-07-09 15:43:37
-tags: [eclipse]
 categories: eclipse
+keywords: eclipse tab ui
 ---
 ### problems
-+ editor的title太大
-在eclipse-mars/plugins/org.eclipse.ui.themes_1.1.0.v20150511-0913/css中修改e4_default_gtk.css
-
++ editor的title太大  
+在`eclipse-mars/plugins/org.eclipse.ui.themes_1.1.0.v20150511-0913/css`中修改e4_default_gtk.css  
+    ```
     .MPartStack {
       font-size: 9;
       font-family: Liberation Sans;
@@ -16,11 +17,11 @@ categories: eclipse
       swt-simple: false;
       swt-mru-visible: false;
     }
-+ 修改gtk样式
-
-kate ~/.gtkrc-2.0
-
-    style "gtkcompact" {
+    ```
++ 修改gtk样式   
+  kate ~/.gtkrc-2.0
+  ```
+  style "gtkcompact" {
     GtkButton::default_border={0,0,0,0}
     GtkButton::default_outside_border={0,0,0,0}
     GtkButtonBox::child_min_width=0
@@ -43,13 +44,13 @@ kate ~/.gtkrc-2.0
     GtkTreeView::horizontal-separator=0
     GtkTreeView::fixed-height-mode=TRUE
     GtkWidget::focus_padding=0
-    }
-    class "GtkWidget" style "gtkcompact"
-
-+ 插件编辑样式
+  }  
+  class "GtkWidget" style "gtkcompact"
+  ```
++ 插件编辑样式  
 [eclipse-themes][2]
-+ use gtk2
-export SWT_GTK3=0
++ use gtk2  
+`export SWT_GTK3=0`
 
 ### link
 [http://stackoverflow.com/questions/11805784/very-large-tabs-in-eclipse-panes-on-ubuntu][4]

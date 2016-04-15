@@ -73,3 +73,8 @@ deploy:
   type: git
   repo: git@github.com:dangxia/dangxia.github.io.git
   message: "Commit message"
+
+markdown:
+  render:
+    breaks: true
+    html: true

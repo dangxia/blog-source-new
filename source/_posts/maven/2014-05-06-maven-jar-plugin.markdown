@@ -5,7 +5,7 @@ date: 2014-05-06 14:47:53 +0800
 comments: true
 categories: maven
 ---
-#	generate XXXX-tests.jar	
+#	generate XXXX-tests.jar
 ```xml
 <plugin>
 	<groupId>org.apache.maven.plugins</groupId>

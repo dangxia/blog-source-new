@@ -1,6 +1,8 @@
+---
 title: TopologyBuilder源码
 date: 2015-11-30 14:46:49
 tags: [jstorm]
+category: jstorm
 ---
 #### TopologyBuilder功能:
 编织`ISpout，IBolt`的拓扑图，并生成StormTopology实例，以便thrift使用.
@@ -35,7 +37,7 @@ public interface IComponent extends Serializable {
 
     /**
      * Declare the output schema for all the streams of this topology.
-     * 
+     *
      * @param declarer this is used to declare output stream ids, output fields, and whether or not each output stream is a direct stream
      */
     void declareOutputFields(OutputFieldsDeclarer declarer);
@@ -43,7 +45,7 @@ public interface IComponent extends Serializable {
     /**
      * Declare configuration specific to this component. Only a subset of the "topology.*" configs can be overridden. The component configuration can be further
      * overridden when constructing the topology using {@link TopologyBuilder}
-     * 
+     *
      */
     Map<String, Object> getComponentConfiguration();
 
@@ -90,7 +92,7 @@ struct ComponentCommon {
   // topology.max.task.parallelism: null // can replace isDistributed with this
   // topology.max.spout.pending: null
   // topology.kryo.register // this is the only additive one
-  
+
   // component specific configuration
   4: optional string json_conf;
 }
@@ -165,7 +167,7 @@ struct JavaObject {
 }
 
 struct NullStruct {
-  
+
 }
 
 struct GlobalStreamId {
@@ -212,7 +214,7 @@ struct ComponentCommon {
   // topology.max.task.parallelism: null // can replace isDistributed with this
   // topology.max.spout.pending: null
   // topology.kryo.register // this is the only additive one
-  
+
   // component specific configuration
   4: optional string json_conf;
 }

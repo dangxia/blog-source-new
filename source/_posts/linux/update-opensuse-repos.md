@@ -1,6 +1,7 @@
 title: update opensuse repos
 date: 2015-01-06 19:42:50
-tags: [opensuse]
+tags: [linux]
+category: linux
 ---
 ```ssh		
 #/bin/bash

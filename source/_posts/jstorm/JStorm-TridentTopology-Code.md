@@ -1,6 +1,8 @@
+---
 title: TridentTopology源码
 date: 2015-11-30 14:46:49
 tags: [jstorm]
+category: jstorm
 ---
 #### 参考：
 + http://www.cnblogs.com/hseagle/p/3756862.html

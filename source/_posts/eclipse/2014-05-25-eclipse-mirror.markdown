@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "eclipse mirror"
+title: "eclipse download mirror"
 date: 2014-05-25 20:18:15 +0800
-comments: true
 categories: eclipse
+keywords: eclipse download mirror
 ---
-##使用mirror更新eclipse插件
-+	####修改hosts	
+##	使用mirror更新eclipse插件
++	####	修改hosts
 127.0.0.1  download.eclipse.org
-+	####运行代理服务	
++	####	运行代理服务
 ```javascript nodejs代理
 var http = require('http');
 http.createServer(function (request, response) {

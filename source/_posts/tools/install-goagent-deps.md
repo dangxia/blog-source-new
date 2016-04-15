@@ -1,6 +1,6 @@
 title: install goagent deps
 date: 2015-01-06 19:40:09
-tags: [goagent]
+category: tools
 ---
 + ubuntu
 ```ssh

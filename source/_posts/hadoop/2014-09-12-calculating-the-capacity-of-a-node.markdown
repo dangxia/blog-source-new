@@ -4,36 +4,37 @@ title: "Calculating the Capacity of a Node"
 date: 2014-09-12 16:23:08 +0800
 comments: true
 categories: hadoop
+tags: hadoop
 ---
 [1]:http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.1-latest/bk_using-apache-hadoop/content/node_capacity.html	"Calculating the Capacity of a Node"
 [2]:http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.1.5/bk_installing_manually_book/content/rpm-chap1-11.html	"Determine YARN and MapReduce Memory Configuration Settings"
-转自：[Calculating the Capacity of a Node][1]	
-Because YARN has now removed the hard partitioned mapper and reducer slots of Hadoop Version 1, new capacity calculations are required. There are eight important parameters for calculating a node’s capacity that are specified in *mapred-site.xml* and *yarn-site.xml*:	
-	
-+	###In mapred-site.xml:
-		mapreduce.map.memory.mb	
+转自：[Calculating the Capacity of a Node][1]
+Because YARN has now removed the hard partitioned mapper and reducer slots of Hadoop Version 1, new capacity calculations are required. There are eight important parameters for calculating a node’s capacity that are specified in *mapred-site.xml* and *yarn-site.xml*:
+
++	### In mapred-site.xml:
+		mapreduce.map.memory.mb
 		mapreduce.reduce.memory.mb`
-These are the hard limits enforced by Hadoop on each mapper or reducer task.	
+These are the hard limits enforced by Hadoop on each mapper or reducer task.
 <!--more-->
 		mapreduce.map.java.opts
 		mapreduce.reduce.java.opts
-*The heapsize of the jvm –Xmx for the mapper or reducer task. Remember to leave room for the JVM Perm Gen and Native Libs used. This value should always be lower than `mapreduce.[map|reduce].memory.mb`.*	
+*The heapsize of the jvm –Xmx for the mapper or reducer task. Remember to leave room for the JVM Perm Gen and Native Libs used. This value should always be lower than `mapreduce.[map|reduce].memory.mb`.*
 
-+	###In yarn-site.xml:
++	### In yarn-site.xml:
 		yarn.scheduler.minimum-allocation-mb
-The smallest container that YARN will allow.	
+The smallest container that YARN will allow.
 
 		yarn.scheduler.maximum-allocation-mb
-The largest container that YARN will allow.	
+The largest container that YARN will allow.
 
 		yarn.nodemanager.resource.memory-mb
-The amount of physical memory (RAM) for Containers on the compute node. It is important that this is not equal to the total amount of RAM on the node, as other Hadoop services also require RAM.	
+The amount of physical memory (RAM) for Containers on the compute node. It is important that this is not equal to the total amount of RAM on the node, as other Hadoop services also require RAM.
 
 		yarn.nodemanager.vmem-pmem-ratio
-The amount of virtual memory that each Container is allowed. This can be calculated with:`containerMemoryRequest*vmem-pmem-ratio`	
+The amount of virtual memory that each Container is allowed. This can be calculated with:`containerMemoryRequest*vmem-pmem-ratio`
 
-+	###Example YARN MapReduce Settings
-<table border="1" 
++	### Example YARN MapReduce Settings
+<table border="1"
 	style="border-collapse: collapse; mso-table-layout-alt: fixed; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 0in 0in 0in"
 	width="705" id="d6e372">
 	<colgroup>

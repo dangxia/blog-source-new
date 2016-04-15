@@ -1,6 +1,7 @@
 title: java Binary Literals
 date: 2015-11-08 12:11:54
 tags: [java]
+category: java
 ---
 [binary-literals.html](http://docs.oracle.com/javase/7/docs/technotes/guides/language/binary-literals.html)
 [stackoverflow:binary-literals-in-java](http://stackoverflow.com/questions/10961091/are-there-binary-literals-in-java)

@@ -1,6 +1,9 @@
+---
 title: crc
 date: 2015-11-08 22:31:37
 tags: [algorithm]
+categories: [algorithm]
+keywords: [crc]
 ---
 [wiki:循環冗餘校驗](https://zh.wikipedia.org/wiki/%E5%BE%AA%E7%92%B0%E5%86%97%E9%A4%98%E6%A0%A1%E9%A9%97)
 [wiki:Category:Cyclic_redundancy_checks](https://en.wikipedia.org/wiki/Category:Cyclic_redundancy_checks)

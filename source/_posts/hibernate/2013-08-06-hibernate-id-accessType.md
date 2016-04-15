@@ -5,7 +5,7 @@ date: 2013-08-06 11:28:12 +0800
 category : hibernate
 ---
 
-###@Id
+###	@Id
 >一般使用GenerationType.AUTO即可。
 	GenerationType.AUTO - identity, sequence, or hilo
 	GenerationType.IDENTITY - MS SQL Server, MySQL
@@ -18,7 +18,7 @@ private Long getId() {
 	return id;
 }
 ```
-###@AccessType
+###	@AccessType
 Hibernate存取Domain object的数据有两种方式，一是透过getter与setter method（access by property），二是直接存取field（access by field），通常是建议使用前者，有封装的作用。
 
 在Hibernate Annotation中决定存取方式的规则如下：
@@ -35,10 +35,3 @@ Hibernate存取Domain object的数据有两种方式，一是透过getter与sett
 
 
 <!--more-->
-
-
-
-
-
-
-

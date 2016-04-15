@@ -1,3 +1,4 @@
+---
 title: AbstractQueuedSynchronizer Source
 date: 2016-03-22 11:18:02
 tags: [java]
@@ -21,7 +22,3 @@ enq : 0
 被下一个enq:更新为SINGAL
 被unparkSuccessor:更新为:0
 cancelAcquire:当超时或interrept,更新为CANCELLED
-
-
-
-

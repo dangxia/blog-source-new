@@ -1,6 +1,8 @@
+---
 title: JStorm Local Dir
 date: 2015-11-25 11:24:40
 tags: [jstorm]
+category: jstorm
 ---
 ### storm.local.dir
 ```java
@@ -12,7 +14,7 @@ public static final String STORM_LOCAL_DIR = "storm.local.dir";
 ```
 
 + nimbus [nimbus local dir]
-  + pids 
+  + pids
     + {$nimbus_pid}
   + rocksdb NimbusCache的data目录
 + metrics

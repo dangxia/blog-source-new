@@ -1,5 +1,5 @@
 title: English-Words-20160220
-date: 2016-02-20 09:35:21
+date: 2015-02-20 09:35:21
 category: [english]
 ---
 + [principal /'prɪnsəp(ə)l/](#v) adj. 主要的；资本的; n. 首长；校长；资本；当事人

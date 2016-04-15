@@ -1,3 +1,4 @@
+---
 title: IdentityHashMap
 date: 2015-11-06 09:35:36
 tags: [java,map]
@@ -95,4 +96,3 @@ private void closeDeletion(int d) {
     }
 }
 ```
-

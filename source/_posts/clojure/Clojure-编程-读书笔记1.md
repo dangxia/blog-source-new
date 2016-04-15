@@ -1,7 +1,9 @@
+---
 title: Clojure 编程-读书笔记1(进入Clojure仙境)
 date: 2015-06-27 14:01:17
 tags: [读书笔记,clojure]
 category : clojure
+keywords: clojure
 ---
 >**列表 在书中一般标识函数调用，而不是数据结构。刚开始没注意，看的很混乱。**
 
@@ -171,7 +173,7 @@ clojure的代码是直接用表示抽象语法树（AST）的clojure的数据结
 
   ### reader
   clojure reader的职责：文本的代码处理成Clojure的数据结构。
-  
+
   reader的所有操作是由read函数完成的。（read-string 函数原理类似)
   print --> pr -->pr-str
 ```
@@ -253,6 +255,3 @@ do会依次求值参数中的表达式，并把最后一个返回。
 fn、let、loop、try、defn隐式的使用了do
 
 ## 定义Var:def
-
-
-

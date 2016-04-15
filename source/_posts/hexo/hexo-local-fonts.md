@@ -1,6 +1,7 @@
+---
 title: hexo-local-fonts
 date: 2016-04-14 15:43:40
-tags: [nodejs,hexo]
+categories: hexo
 ---
 ### 下载css
 [google fonts css](http://fonts.useso.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext)

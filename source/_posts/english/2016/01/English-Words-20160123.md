@@ -1,5 +1,5 @@
 title: English-Words-20160123
-date: 2016-01-23 09:35:21
+date: 2015-01-23 09:35:21
 category: [english]
 ---
 + [establish /ɪ'stæblɪʃ; e-/](#v) vt. 建立；创办；安置; vi. 植物定植
@@ -24,7 +24,7 @@ category: [english]
 + [dot /dɒt/](#v) n. 点，圆点；嫁妆; vi. 打上点; vt. 加小点于; n. (Dot)人名；(中)多(广东话·威妥玛)；(英)多特(女子教名 Dorothea 和 Dorothy 的昵称)；(越)突
 + [underscore /ʌndə'skɔː/](#v) vt. 强调；划线于…下; n. 底线，[计] 下划线
 + [thus /ðʌs/](#v) adv. 因此；从而；这样；如此; conj. 因此; n. 乳香
-+ [differentiate](#v) 
++ [differentiate](#v)
 + [alternative /ɔːl'tɜːnətɪv; ɒl-/](#v) adj. 供选择的；选择性的；交替的; n. 二中择一；供替代的选择
 + [hierarchy /'haɪərɑːkɪ/](#v) n. 层级；等级制度
 + [figure /'fɪgə/](#v) n. 数字；人物；图形；价格；（人的）体形；画像; vi. 计算；出现；扮演角色; vt. 计算；认为；描绘；象征

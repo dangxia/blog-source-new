@@ -1,6 +1,8 @@
+---
 title: NimbusData源码
 date: 2015-11-25 14:46:49
 tags: [jstorm]
+category: jstorm
 ---
 ### 属性
 + downloaders,uploaders

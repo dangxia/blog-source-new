@@ -1,6 +1,8 @@
+---
 title: MasterBatchCoordinator源码
 date: 2015-12-02 14:46:49
 tags: [jstorm]
+category: jstorm
 ---
 #### CoordinatorState Zk
 ```

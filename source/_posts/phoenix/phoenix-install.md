@@ -22,4 +22,3 @@ To install a pre-built phoenix, use these directions:
 ## Command Line
 ************************
 `sqlline.py localhost:2181:/hbase`
-

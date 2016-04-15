@@ -1,5 +1,5 @@
 title: English-Words-20160102
-date: 2016-01-02 09:35:21
+date: 2015-01-02 09:35:21
 category: [english]
 ---
 + [demand /dɪˈmɑːnd/](#v) 要求; 请求;需求, 需要

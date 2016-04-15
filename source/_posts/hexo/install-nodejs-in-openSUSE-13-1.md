@@ -1,6 +1,6 @@
 title: install nodejs in openSUSE 13.1
 date: 2014-10-28 15:43:40
-tags: [nodejs,hexo]
+categories: [hexo]
 ---
 ##install nodejs in openSUSE
 ```sh

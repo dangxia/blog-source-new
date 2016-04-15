@@ -6,7 +6,7 @@ comments: true
 categories: maven
 ---
 
-+	###install existed jar in local repository	
++	###	install existed jar in local repository
 ```xml
 <plugin>
 	<artifactId>maven-install-plugin</artifactId>

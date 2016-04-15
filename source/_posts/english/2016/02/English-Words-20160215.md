@@ -1,5 +1,5 @@
 title: English-Words-20160215
-date: 2016-02-15 09:35:21
+date: 2015-02-15 09:35:21
 category: [english]
 ---
 + [homogeneous /,hɒmə(ʊ)'dʒiːnɪəs; -'dʒen-/](#v) adj. 均匀的；[数] 齐次的；同种的；同类的
