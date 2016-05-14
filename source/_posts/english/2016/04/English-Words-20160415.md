@@ -8,3 +8,10 @@ category: [english]
 + [alternate /'ɔːltəneɪt; 'ɒl-/](#v) vi. 交替；轮流; vt. 使交替；使轮流; adj. 交替的；轮流的; n. 替换物
 + [typography /taɪ'pɒgrəfɪ/](#v) n. 排印；[印刷] 活版印刷术；印刷格式
 + [palette /'pælɪt/](#v) n. 调色板；颜料; n. (Palette)人名；(法)帕莱特
++ [nonetheless /nʌnðə'les/](#v) adv. 尽管如此，但是
++ [sufficient /sə'fɪʃ(ə)nt/](#v) adj. 足够的；充分的
++ [minimal /'mɪnɪm(ə)l/](#v) adj. 最低的；最小限度的
++ [predictable /prɪ'dɪktəb(ə)l/](#v) adj. 可预言的
++ [routine /ruː'tiːn/](#v) n. [计] 程序；日常工作；例行公事; adj. 日常的；例行的
++ [enclose /ɪn'kləʊz; en-/](#v) vt. 围绕；装入；放入封套
++ [manipulate /mə'nɪpjʊleɪt/](#v) vt. 操纵；操作；巧妙地处理；篡改

@@ -5,7 +5,7 @@ date: 2014-05-06 14:52:19 +0800
 comments: true
 categories: maven
 ---
-+	###	eclipse IDE "Plugin execution not covered by lifecycle ..." solution
++	###	 eclipse IDE "Plugin execution not covered by lifecycle ..." solution
 ```xml
 <pluginManagement>
     <plugins>
@@ -43,6 +43,6 @@ categories: maven
 </pluginManagement>
 ```
 <!--more-->
-+	###	skip mvn warning for lifecycle-mapping plugin
++	###	 skip mvn warning for lifecycle-mapping plugin
 Checkout https://github.com/mfriedenhagen/dummy-lifecycle-mapping-plugin
 Run mvn install
