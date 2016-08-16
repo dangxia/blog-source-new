@@ -1,0 +1,32 @@
+---
+layout: "post"
+title: "asm-core"
+date: "2016-07-03 16:02"
+category: [asm]
+---
+
+### Type descriptors
+
+Java Type  | Type descriptors
+-----------|---------------------
+boolean    | Z
+char       | C
+byte       | B
+short      | S
+int        | I
+float      | F
+long       | J
+double     | D
+Object     | Ljava/lang/Object;
+int[]      | [I
+Object[][] | [[Ljava/lang/Object;
+
+<!--more-->
+### Method descriptors
+
+Method declaration in source file | Method descriptor
+----------------------------------|------------------------
+void m(int i, float f)            | (IF)V
+int m(Object o)                   | (Ljava/lang/Object;)I
+int[] m(int i, String s)          | (ILjava/lang/String;)[I
+Object m(int[] i)                 | ([I)Ljava/lang/Object;
